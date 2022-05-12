@@ -1,0 +1,59 @@
+@import "config";
+@import "variables";
+@import "mixins";
+@import "tarjetas";
+
+
+
+.logo{
+    color: brown;
+    transition: all 500ms;
+    &:hover{
+        color: rgba(211, 53, 53, 0.911);
+    }
+}
+
+h2{
+    color: brown;
+}
+footer a{
+    color: brown;
+}
+
+
+.integrantes{
+    color: aliceblue;
+    font-size:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .integrantes img{
+        padding: 10px 20px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.formulario{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 20px;
+    flex-direction: column;
+}
+.titulo-video{
+    color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cont-video{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 20px;
+}
