@@ -1,0 +1,19 @@
+.integrantes{
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    .integrante{
+       width:400px;
+       height: 200px;
+       margin: 10px; 
+    }
+  }
+@media (min-width:768px){
+    .integrantes{
+        display: flex;
+        flex-direction: row;
+    } 
+}

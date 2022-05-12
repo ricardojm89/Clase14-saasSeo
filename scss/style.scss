@@ -2,6 +2,7 @@
 @import "variables";
 @import "mixins";
 @import "tarjetas";
+@import "integrantes";
 
 
 
@@ -18,21 +19,13 @@ h2{
 }
 footer a{
     color: brown;
-}
-
-
-.integrantes{
-    color: aliceblue;
-    font-size:15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .integrantes img{
-        padding: 10px 20px;
-        height: 100px;
-        width: 100px;
+    &:hover{
+        color: rgba(211, 53, 53, 0.911);
     }
 }
+
+
+
 
 .formulario{
     width: 300px;
