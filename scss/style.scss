@@ -3,6 +3,7 @@
 @import "mixins";
 @import "tarjetas";
 @import "integrantes";
+@import "formulario";
 
 
 
@@ -24,18 +25,6 @@ footer a{
     }
 }
 
-
-
-
-.formulario{
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    color: aliceblue;
-    font-size: 15px;
-    padding: 20px;
-    flex-direction: column;
-}
 .titulo-video{
     color: brown;
     display: flex;
