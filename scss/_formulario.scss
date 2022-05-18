@@ -1,9 +1,63 @@
-.contenedorFormulario{
-    width: 400px;
-    display: flex; 
-    justify-content: center;
-}
-.formulario{
+form{
+    width: 450px;
+    margin: auto;
     color: white;
-    
+    background-color: rgba(94, 92, 92, 0.705);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    h2{
+        text-align: center;
+        padding: 5px;
+        font-size: 40px;
+    }
+    input, textarea{
+        width: 100%;
+        box-sizing: border-box;
+        border: 0;
+        border-radius: 5px;
+    }
+    textarea{
+        min-height: 200px;
+        max-height: 300px;
+    }
+    .estadoCivil{
+        select{
+            border: 0;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+    }
+    .mujer{
+        display: flex;
+        margin-bottom: 10px;
+        input{
+            width: auto;
+            margin-left: 10px;
+        }
+    }
+    .hombre{
+        @extend .mujer
+    }
+    .recibirInformacion{
+        input{
+            width: auto;
+            margin-left: 10px;
+            
+        }
+    }
+    .limpiarEnviar{
+        
+        input{
+            background-color: rgb(37, 36, 39);
+            color: white;
+            border: 0;
+            border-radius: 5px;
+        }
+    }
+
 }
+
+

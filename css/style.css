@@ -64,18 +64,66 @@ body {
   }
 }
 
-.contenedorFormulario {
-  width: 400px;
+form {
+  width: 450px;
+  margin: auto;
+  color: white;
+  background-color: rgba(94, 92, 92, 0.705);
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+form h2 {
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+}
+
+form input, form textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+}
+
+form textarea {
+  min-height: 200px;
+  max-height: 300px;
+}
+
+form .estadoCivil select {
+  border: 0;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+form .mujer, form .hombre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-bottom: 10px;
 }
 
-.formulario {
+form .mujer input, form .hombre input {
+  width: auto;
+  margin-left: 10px;
+}
+
+form .recibirInformacion input {
+  width: auto;
+  margin-left: 10px;
+}
+
+form .limpiarEnviar input {
+  background-color: #252427;
   color: white;
+  border: 0;
+  border-radius: 5px;
 }
 
 .logo {
