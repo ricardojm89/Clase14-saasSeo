@@ -55,9 +55,13 @@ form{
             color: white;
             border: 0;
             border-radius: 5px;
+            margin-bottom: 10px;
+            &:hover{
+                color: brown;
+            }
         }
+        
     }
-
+    
 }
-
 
