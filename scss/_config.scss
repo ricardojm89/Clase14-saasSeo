@@ -1,3 +1,15 @@
 body{
     font-size: 20px;
 }
+
+.logo{
+    color: brown;
+    transition: all 500ms;
+    &:hover{
+        color: rgba(211, 53, 53, 0.911);
+    }
+}
+
+h2{
+    color: brown;
+}

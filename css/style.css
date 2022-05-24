@@ -2,6 +2,20 @@ body {
   font-size: 20px;
 }
 
+.logo {
+  color: brown;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.logo:hover {
+  color: rgba(211, 53, 53, 0.911);
+}
+
+h2 {
+  color: brown;
+}
+
 .contenedorTarjetas {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,52 +149,5 @@ form .limpiarEnviar input:hover {
   form {
     width: 100%;
   }
-}
-
-.logo {
-  color: brown;
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
-}
-
-.logo:hover {
-  color: rgba(211, 53, 53, 0.911);
-}
-
-h2 {
-  color: brown;
-}
-
-footer a {
-  color: brown;
-}
-
-footer a:hover {
-  color: rgba(211, 53, 53, 0.911);
-}
-
-.titulo-video {
-  color: brown;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 20px;
-}
-
-.cont-video {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 20px;
 }
 /*# sourceMappingURL=style.css.map */

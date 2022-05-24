@@ -7,35 +7,9 @@
 
 
 
-.logo{
-    color: brown;
-    transition: all 500ms;
-    &:hover{
-        color: rgba(211, 53, 53, 0.911);
-    }
-}
 
-h2{
-    color: brown;
-}
-footer a{
-    color: brown;
-    &:hover{
-        color: rgba(211, 53, 53, 0.911);
-    }
-}
 
-.titulo-video{
-    color: brown;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
-}
 
-.cont-video{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    margin: 20px;
-}
+
+
+
